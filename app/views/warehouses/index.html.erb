@@ -1,14 +1,17 @@
 <p style="color: green"><%= notice %></p>
+<div class="container">
+  <%= link_to "Back to Items", root_path %>
+  <br>
+  <h1>Warehouses</h1>
 
-<h1>Warehouses</h1>
-
-<div id="warehouses">
-  <% @warehouses.each do |warehouse| %>
-    <%= render warehouse %>
-    <p>
-      <%= link_to "Show this warehouse", warehouse %>
-    </p>
-  <% end %>
+  <div id="warehouses">
+    <% @warehouses.each do |warehouse| %>
+      <%= render warehouse %>
+      <p>
+      </p><br>
+    <% end %>
+  </div>
+<div class="container">
+  <%= link_to "Add Warehouse", new_warehouse_path %> | 
 </div>
-
-<%= link_to "New warehouse", new_warehouse_path %>
+</div>

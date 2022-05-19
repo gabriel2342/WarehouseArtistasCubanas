@@ -1,7 +1,21 @@
 <div id="<%= dom_id warehouse %>">
-  <p>
-    <strong>Name:</strong>
-    <%= warehouse.name %>
-  </p>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      <p>
+        <strong>Name:</strong>
+        <%= warehouse.name %>
+      </p>
+      </div>
 
+      <% warehouse.items.each do |item| %>
+        <p>
+          <%= item.name %> | <%= link_to "View Item", item %> 
+        </p>
+      <% end %>
+
+      <%= link_to "Show this warehouse", warehouse %>
+
+    </div>
+  </div>
 </div>
