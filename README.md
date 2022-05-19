@@ -12,4 +12,4 @@ Simple hit run!
 Items in the inventory are listed on the index page. Click the 'Add item' button at the bottom of the home page to add a new item and assign it to a warehouse. Click the 'back to items' link to go back to the index. Click the 'Add Warehouse' button at the bottom of the page to add a new warehouse. Click the 'back to items' link to go back to the index. To see your new warehouse either add a new item or click on "view item details" to edit a current item. 
 
 ### Note
-Turbo frames are not working in replit. This app was built with love. 
+This app was built with love. 
