@@ -1,4 +1,7 @@
+
 <div class="container">
+  <%= link_to "Back to items", items_path %> <br>
+
   <h1>New Warehouse</h1>
 <%= turbo_frame_tag "second_frame" do %>
   <%= render "form", warehouse: @warehouse %>

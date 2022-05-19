@@ -1,25 +1,15 @@
 # Warehouse exercise
-
-This is a template to get you started with Rails on Replit. It's ready to go so you can just hit run and start coding!
-
-This template was generated using `rails new` (after you install the `rails` gem from the packager sidebar) so you can always do that if you prefer to set it up from scratch. The only had two make config changes we had to make to run it on Replit:
-
-- bind the app on `0.0.0.0` instead of `localhost` (see `.replit`)
-- allow `*.repl.co` hosts (see `config/environments/development.rb`)
-- allow the app to be iframed on `replit.com` (see `config/application.rb`)
+ This rails app "Las Artistas Cubanas" allows market owners to add items to their 
+ inventory, assign those items to a warehouse, and allows the user to create a 
+ warehouse as needed
 
 ## Running the app
 
-Simple hit run! You can edit the run command from the `.replit` file.
+Simple hit run! 
 
-## Running commands
+## Using the App
 
-Start every command with `bundle exec` so that it runs in the context of the installed gems environment. The console pane will give you output from the server but you can run arbitrary command from the shell without stopping the server.
+Items in the inventory are listed on the index page. Click the 'Add item' button at the bottom of the home page to add a new item and assign it to a warehouse. Click the 'back to items' link to go back to the index. Click the 'Add Warehouse' button at the bottom of the page to add a new warehouse. Click the 'back to items' link to go back to the index. To see your new warehouse either add a new item or click on "view item details" to edit a current item. 
 
-## Database
-
-SQLite would work in development but we don't recommend running it in production. Instead look into using the built-in [Replit database](http://docs.replit.com/misc/database). Otherwise you are welcome to connect databases from your favorite provider. 
-
-## Help
-
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+### Note
+Turbo frames are not working in replit. This app was built with love. 
